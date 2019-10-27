@@ -1,0 +1,323 @@
+.headd{
+  margin: 5% 0;
+  border: solid;
+  border-width: 50%;
+}
+.header{
+width: 100%;
+height: 200px;
+background-color: transparent;
+
+}
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+	max-width: 1359px;
+}
+
+#navbar {
+  background-color: lightblue;
+  position: fixed;
+  top: -50px;
+  width: 89.5%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 1;
+  max-width: 1920px;
+}
+
+#navbar a {
+  float:left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#logo{
+position: sticky;
+left:28%;
+
+}
+#logo2{
+  position: sticky;
+  left: 28%;
+}
+#item{
+  width: 200px;
+height: 200px;
+margin: 50px auto;
+padding-top: 75px;
+background: #ccc;
+text-align: center;
+color: #FFF;
+font-size: 3em;
+}
+
+.box {
+  width: 40%;
+  height: 200px;
+  background: orange;
+  border-radius: 2px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  border-color: black;
+  z-index: 0;
+}
+
+hr {
+  border-top: 1px solid #111111;
+  border-bottom: 2px solid #292929;
+}
+
+br{
+  background-color: lightgrey;
+}
+
+.box1{
+width: 100%;
+height: 900px;
+/* background-color: lightblue; */
+}
+
+.box3{
+  width:100%
+  height:200px;
+  /* background-color: red; */
+}
+
+.spacing{
+  width: 100%;
+  height: 100px;
+  display: block;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  body {
+    width: 80%;
+    padding: 0;
+  }
+  .img{
+    width: 80%
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, body, .right {
+    width: 100%;
+  }
+}
+
+.fronttext{
+  font-family: myFirstFont;
+  text-align: center;
+}
+
+.fronttext2{
+  font-family: myFirstFont;
+  text-align: center;
+}
+.fronttext3{
+  font-family: myFirstFont;
+  text-align: center;
+}
+.fronttext4{
+  font-family: mySecondFont;
+  text-align: left;
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(KathCondensed-InlineBold.otf);
+   font-weight: bold;
+}
+
+@font-face {
+   font-family: mySecondFont;
+   src: url(KathCondensed-Regular.otf);
+   font-weight: bold;
+}
+
+
+.satel{
+  position: fixed;
+}
+
+
+/* LOON BALLOONS */
+
+.loonballoons{
+  width: 100%;
+  /* background-color: lightgrey; */
+  height: 1200px;
+
+}
+
+.sketchfab{
+  position: absolute;
+  top:5470px;
+  left:400px;
+
+}
+
+.box1loons{
+  position: absolute;
+  font-family:Georgia;
+  width: 650px;
+  height:413px;
+  /* background-color: grey; */
+}
+
+.box11loons{
+  font-family:Georgia;
+  text-align: center;
+  position: absolute;
+  top:5450px;
+  width: 285px;
+  height:580px;
+  /* background-color: red; */
+  left: 110px;
+}
+.box2loons{
+  position: absolute;
+  font-family:Georgia;
+  width: 660px;
+  height:413px;
+  /* background-color: grey; */
+  left: 770px;
+}
+
+.box21loons{
+  font-family:Georgia;
+  text-align: center;
+  position: absolute;
+  top:5450px;
+  width: 255px;
+  height:580px;
+  /* background-color: red; */
+  left: 1135px;
+}
+
+
+
+
+
+.yeet{
+  height:790px;
+  font-family: Georgia;
+}
+
+
+
+
+
+
+
+
+/* MESH NETWORK */
+
+.meshnetworks{
+  width: 100%;
+  /* background-color: lightgreen; */
+  height: 2350px;
+
+}
+
+.cat{
+position: absolute;
+top: 2500px;
+left: 710px;
+width:688px;
+height: 386px;
+border-radius: 10px;
+border:   1px solid black;
+
+}
+
+.cat2{
+position: absolute;
+top: 3000px;
+left: 125px;
+width:688px;
+height: 386px;
+border-radius: 10px;
+border:   1px solid black;
+
+}
+
+.cat3{
+position: absolute;
+top: 3500px;
+left: 710px;
+width:688px;
+height: 386px;
+border-radius: 10px;
+border:   1px solid black;
+
+}
+
+.cat4{
+position: absolute;
+top: 4000px;
+left: 125px;
+width:688px;
+height: 386px;
+border-radius: 10px;
+border:   1px solid black;
+
+}
+
+
+.bx1{
+  position: absolute;
+  top: 2500px;
+  left: 125px;
+  width:530px;
+  height: 470px;
+border:2px red;
+/* background-color: red; */
+font-family: Georgia;
+}
+.bx2{
+  position: absolute;
+  top: 3000px;
+  left: 870px;
+  width:530px;
+  height: 470px;
+border:2px red;
+/* background-color: red; */
+font-family: Georgia;
+}
+
+.bx3{
+  position: absolute;
+  top: 3500px;
+  left: 125px;
+  width:530px;
+  height: 470px;
+border:2px red;
+/* background-color: red; */
+font-family: Georgia;
+}
+
+.bx4{
+  position: absolute;
+  top: 4000px;
+  left: 870px;
+  width:530px;
+  height: 470px;
+border:2px red;
+/* background-color: red; */
+font-family: Georgia;
+}
